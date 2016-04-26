@@ -12,7 +12,7 @@ void main()
   
   int YourLotteryNo;  
    
-  printf("Enter your Lottery Number (0 to end): "); 
+  printf("Enter Number (0 to end): "); 
   scanf("%d", &YourLotteryNo); 
   while (YourLotteryNo != 0) 
   { 
@@ -21,7 +21,11 @@ void main()
     {
        if (YourLotteryNo == WinLotteryNo[i]) 
        {
-          printf("Sorry You Won %8.2f baht\n", WinAmount[i]); 
+<<<<<<< HEAD
+          printf("Kidding You Won %8.2f baht\n", WinAmount[i]); 
+=======
+          printf("Kidding You Won %8.2f baht\n", WinAmount[i]); 
+>>>>>>> 97df704817f63f82efded7b96d94003306d684ad
           won = 1;
        }
     }
